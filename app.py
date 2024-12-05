@@ -14,7 +14,7 @@ import os
 from openai import OpenAI
 
 # OpenAI API setup
-client = OpenAI(api_key = 'your-api-key')
+client = OpenAI(api_key = st.secrets['your-api-key'])
 
 # Load a single model
 def load_model(model_name):
