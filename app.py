@@ -111,11 +111,13 @@ if sections == "Theory":
 
     # Add the first image to the first column
     with col1:
-        st.image("/Users/shuai/Desktop/original_image.png", caption="Example of Printer")
+        org_img = os.path.abspath("/Users/shuai/Desktop/original_image.png")
+        st.image(org_img, caption="Example of Printer")
 
     # Add the second image to the second column
     with col2:
-        st.image("/Users/shuai/Desktop/saliency_map.png", caption="Example of a Saliency Map")
+        saliency = os.path.abspath("/Users/shuai/Desktop/saliency_map.png")
+        st.image(saliency, caption="Example of a Saliency Map")
 
 
     # Mathematical foundation
