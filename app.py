@@ -145,7 +145,11 @@ if sections == "Demo":
     2. Some options with images in the github:
     
     assets/umbrella.png
+    
+    
     assets/wallaby.png
+    
+    
     assets/elephant.png
     """)
     model_choice = st.sidebar.selectbox("Choose a classification model", ["ResNet50", "VGG16", "EfficientNetB0", "MobileNet"])
