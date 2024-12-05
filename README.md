@@ -33,6 +33,6 @@ A saliency map is an interpretability tool used in deep learning, particularly f
 In other words, a saliency map indicates the areas of focus in an image that the model relies on when making its prediction. Brighter regions in the map correspond to pixels that had a higher impact on the prediction, while darker regions had less influence.
 
 ## Results & Conclusion
-<img width="315" alt="1.png" src="assets/1.pngg">
+<img width="315" alt="1.png" src="assets/1.png">
 
 This project demonstrats how to generate and analyze saliency maps for image classification models using deep learning techniques. It allows four pre-trained models: ResNet50, VGG16, EfficientNet80, and MobileNet, and integrated OpenAI's API for further analysis of generated saliency maps. Comparsion results of different models' saliency maps: ResNet50 and VGG16 have higher performance in the classification tasks among four models, and VGG16 has slight higher performance than ResNet50. According to the saliency maps, VGG16 focuses more on the relevant regions of the image rather than the background, which is more suitable for medical image analysis. (The countour lines of VGG16 is more explicit than ResNet50's saliency map) EfficientNet80 has the lowest performace, often misclassifying or showing very low confidence. MobileNet performs better than EfficientNetB0 but has notable inaccuracies in two out of three cases. 
