@@ -14,7 +14,7 @@ import os
 from openai import OpenAI
 
 # OpenAI API setup
-client = OpenAI(api_key=st.secrets['open_ai_key'])
+client = OpenAI(api_key = st.secrets['open_ai_key'])
 
 # Load a single model
 def load_model(model_name):
@@ -219,3 +219,5 @@ if sections == "Demo":
                         st.pyplot(plt)
         else:
             st.warning("Please enter a valid image path.")
+
+
