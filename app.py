@@ -111,14 +111,11 @@ if sections == "Theory":
 
     # Add the first image to the first column
     with col1:
-        org_img = os.path.abspath("/Users/shuai/Desktop/original_image.png")
-        st.image(org_img, caption="Example of Printer")
+        st.image("assets/original_image.png", caption="Example of Printer")
 
     # Add the second image to the second column
     with col2:
-        saliency = os.path.abspath("/Users/shuai/Desktop/saliency_map.png")
-        st.image(saliency, caption="Example of a Saliency Map")
-
+        st.image("/Users/shuai/Desktop/saliency_map.png", caption="Example of a Saliency Map")
 
     # Mathematical foundation
     st.markdown("### Mathematical Foundation")
