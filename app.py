@@ -115,7 +115,7 @@ if sections == "Theory":
 
     # Add the second image to the second column
     with col2:
-        st.image("/Users/shuai/Desktop/saliency_map.png", caption="Example of a Saliency Map")
+        st.image("assets/saliency_map.png", caption="Example of a Saliency Map")
 
     # Mathematical foundation
     st.markdown("### Mathematical Foundation")
