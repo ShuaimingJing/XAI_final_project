@@ -14,7 +14,7 @@ import os
 from openai import OpenAI
 
 # OpenAI API setup
-client = OpenAI(api_key = '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')
+client = OpenAI(api_key = 'your-api-key')
 
 # Load a single model
 def load_model(model_name):
