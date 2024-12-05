@@ -147,7 +147,7 @@ if sections == "Demo":
     assets/umbrella.png
     assets/wallaby.png
     assets/elephant.png
-    )
+    """)
     model_choice = st.sidebar.selectbox("Choose a classification model", ["ResNet50", "VGG16", "EfficientNetB0", "MobileNet"])
 
     if st.sidebar.button("🔍 Classify and Generate Saliency Map"):
