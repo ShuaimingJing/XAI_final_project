@@ -143,11 +143,11 @@ if sections == "Demo":
     ### Instructions
     1. Enter the full path to the image file you want to analyze.
     2. Some options with images in the github:
+    
     assets/umbrella.png
     assets/wallaby.png
     assets/elephant.png
-    3. Ensure the image path is correct if using a local file.
-    """)
+    )
     model_choice = st.sidebar.selectbox("Choose a classification model", ["ResNet50", "VGG16", "EfficientNetB0", "MobileNet"])
 
     if st.sidebar.button("🔍 Classify and Generate Saliency Map"):
